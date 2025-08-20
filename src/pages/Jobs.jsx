@@ -10,6 +10,7 @@ const Jobs = () => {
 <Link to={`/jobs/${job.id}`} key={job.id}>
           <h4>{job.title}</h4>
           <p>{job.location}</p>
+          <p>Hello Students</p>
         </Link>
       ))}
     </div>
